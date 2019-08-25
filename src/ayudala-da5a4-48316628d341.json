@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ayudala-da5a4",
+  "private_key_id": "48316628d3412f93e2b9eac323e4f0890cd7a2ee",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCxg3xbCJxt0OVT\n+bT9W3hOq+IPXw9RDnxmX+syHm8VsewlPTFkMHWFWfjwlPGKMSOl4uRiLTW4LLJz\nlhqI2gYShfEQORKMncapgyqHOYAgNeQbzhkMlJjAvTxCL7pHMNky9Bpt3sZsrPiu\n1K4SW/90HEazwijxhS3ZzOVLLjErIzSsBKEPDdNY/YuPzzmhZWEd9i0MV20DFOQ+\n9Msl2y+R55c8wgYyh7xINLTcSlZTznSCXBuvKnzA940/lZP787Qyr3PCRoPCjIPa\nTpLsjIDMiB3A4Yimg+Z1HxJ/ehQdjwXU/4A2JFP0kYNr8VTNMcP8BsfNDGIvpc9t\nLv/Jq2C7AgMBAAECggEARZieBFjzb7CzgMGJnr2ihQGpv0oPSMHLrx2TKlK5TcG0\nqoL73uKK6O32Bmj27C3I4qx6yy0bfypzCpNCsv373H5MHYaqyZvAPEyTO3IlVDuc\nw/QBaSfHXeWzfuWUfH3f4jTHOeVaWVhVpcH3v3X3STAe3jJU+CA1ckt9aITjPRxI\nh7EJDHRRwmCy0o2LhY1q2mcBp0cng+Nrr1dijBwXJbmYELJ83m3npsEKU6WFro67\nGiFQVW/moju+20xmCgLnKFXqFX3O+pc+31PgQw54dd/garRHXQ/Bw3pk0DZtPYed\nT0Voo0B8CbcFb93imMx58JmwLugCHSoEKRfyTWg7oQKBgQDhtJnvxz4xkkqn0xFO\nsLkLQCnM1waS5PpHkt01u3FRAPItt2hOIR+INJ0Axur2nQo7OvIHobwfnRC+Ez3O\nB9AieGoiNtXFI9UivfQEJTBljIqCfaJAozz1M4N0HhTdsFnHDOb5EKnzCzY/9oP2\nsITU4h5HTBvGXo5GrmlruzP32wKBgQDJVvp1mxwh5XDTkw1VdgBqfffvOPWUvP+A\nWByGyiswLotlSJvxouWxwtBZOh0KW7QaBpWjTRlG9zuSCx4yieqoW1DJeRG9mENN\nnfKnxvLwgmCRel3kgv6UziHwnu0DBE07uVun8Zfljg7UQqLwsvXEiuPOdHlWtxJZ\nnPNYbt2AoQKBgDE0HObfyZgm6y2A3uIHtp9UQoiMS7uUPVeDFcRT85UUHreGpy95\nGxWnWp7Dvo86lvNom0C8qnU92VuGeE/E9kO9em2xBJMwh5NGU77fmJhatgtSdh+f\nNnfB3iNfN29ItZmmH2gmkNYSGKaDCCusOZjrHmyuk9N/44ZXGVZJ/j9HAoGAbgH4\nFwoI9PxICVHvlyJCV+076plUlVAuyhFahMsxjcHgqBZkHkLC/b1T2WzHMUGpxg6S\n9AbMKNos0j8A4Nw6OoKqQWrFJrJrE52ZV9J8Kq0R1mrlolVwhB2crbwoA9311QwR\n6FE4jVRxBcji/mDJp/m7PrKlGZwtiokW7NqmbAECgYEArn9z5LDEM0Hd+6eC3gHH\nulem0wewo9ATAVOBbAla/HxKCrGHr/qBatlTMf+Ni/ZvHErgdXZS/DTbu+cyQt1P\nrEmsJAZze5jM5m5smIIOxnX6nnhh3rSOHBdHdKfBMqnlTbQytJ0GFKuKdTfMHk2p\nZ3DlhO5Vm9672b8fmBYdXys=\n-----END PRIVATE KEY-----\n",
+  "client_email": "murgaesputo@ayudala-da5a4.iam.gserviceaccount.com",
+  "client_id": "117594066143374791484",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/murgaesputo%40ayudala-da5a4.iam.gserviceaccount.com"
+}

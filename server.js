@@ -2,7 +2,6 @@ require('dotenv').config()
 const express = require('express')
 const bodyParser = require('body-parser')
 const compression = require('compression')
-const mongoose = require('mongoose')
 const { wrap } = require('./src/util/wrap')
 const { errorHandler } = require('./src/util/errorHandler')
 const { verifyToken } = require('./src/util/token')
@@ -17,6 +16,7 @@ const accountSid = 'AC93057b79ef55c544691da5ba303bce0f';
 const authToken = '2ba870b6a5aaa9832c13af258f546bda';
 const client = require('twilio')(accountSid, authToken);
 const sms = require('./src/routes/sms')
+const admin = require('firebase-admin');
 
 async function run () {
   // Middlewares
@@ -38,13 +38,22 @@ async function run () {
   app.use('/sms', sms)
   app.use(errorHandler)
   // Mongoose bootstrapping
-  mongoose.Promise = global.Promise
+  //mongoose.Promise = global.Promise
   //mongoose.connect(db, DBOPTIONS)
   //const database = mongoose.connection
   //database.on('error', wrap(console.error.bind(console, 'DB connection error: ')))
   //database.once('open', () => {
   //    console.log('Connection with mongoose created')
   //})
+  // See https://firebase.google.com/docs/web/setup for how to
+// auto-generate this config
+let serviceAccount = require('./src/ayudala-da5a4-48316628d341.json');
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount)
+});
+console.log('connection with firebase working.')
+
+  firebase = admin.firestore();
 
   app.listen(PORT)
   console.log(`Listening on port: ${PORT}`)

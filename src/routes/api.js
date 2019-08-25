@@ -4,22 +4,16 @@ const express = require('express')
 const router = express.Router()
 const {wrap} = require('./../util/wrap')
 
-
-
 router.route('/')
-  .get(wrap(async (req, res) => {
-    res.send({'message' : 'this is a message'})
-  }))
-
-
-router.route('/login')
   .post(wrap(async (req, res) => {
-    let userData = req.body
-    const user = await User.findOne({email:userData.email}) 
-    if ( user.password !== userData.password ||  !user ) throw new Error('User and/or password incorrect')
-    let payload = { subject: user._id }
-    let token = jwt.sign(payload,'secretKey')            
-    res.status(200).send({token})
+    let alerts = firebase.collection('alertas').doc('alovelace');
+
+    let setAda = alerts.set({
+      first: 'Ada',
+      last: 'Lovelace',
+      born: 1815
+    });
+    res.send({'message' : 'this is a message'})
   }))
 
 module.exports = router
